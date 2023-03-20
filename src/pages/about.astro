@@ -1,0 +1,32 @@
+---
+//component imports 
+import Link from "../components/Link.astro";
+import Mainlayout from "../layouts/Mainlayout.astro";
+
+---
+
+<Mainlayout title="About" description="My about page" >
+<section class="container about" aria-label="About Me">
+	<img src="/images/headshot.jpg" 
+	alt="my headshot"
+	width="200"
+	height="330"/>
+	<div class="content">
+		<h class="h1">My Blog</h>
+		<p>
+			Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+			Reprehenderit in possimus laudantium temporibus fugit, hic, sit ipsam veritatis saepe,
+			 adipisci assumenda exercitationem aliquid tempora optio facere provident.
+			  Accusantium corrupti magnam repudiandae illo,velit quod libero
+			   fuga et numquam, sunt 
+			   odit?
+		</p>
+		<Link 
+		href="mailto:hosamalkulaby7@gmail.com"
+		style="primary"
+		text ="Contact Me" />
+	</div>
+</section>
+</Mainlayout>
+
+
